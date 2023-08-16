@@ -51,3 +51,21 @@ const roundMentors = Math.round(percentOfMentors);
 console.log(
   `Percentage of trainees: ${roundMentors}% \n Percentage of mentors: ${roundTrainees}`
 );
+
+// Functions
+
+function double(number) {
+  return number * 2;
+}
+
+const result = double(2);
+
+console.log(result); // 4
+
+function add(num1, num2) {
+  return num1 + num2;
+}
+
+let sum = add(7, 10)
+
+console.log(sum); // 17
